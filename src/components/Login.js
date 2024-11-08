@@ -94,6 +94,11 @@ const Login = () => {
       >
         Login
       </Button>
+      <Typography variant="body2" sx={{ color: '#000', marginTop: '20px' }}>
+        <a href="URL_DO_VIDEO" target="_blank" rel="noopener noreferrer" style={{ color: '#000', textDecoration: 'none' }}>
+          Clique para acessar nosso vídeo pitch
+        </a>
+      </Typography>
     </Box>
   );
 };
